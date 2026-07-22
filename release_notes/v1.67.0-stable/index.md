@@ -91,7 +91,7 @@ This release allows you to call Azure OpenAI, Anthropic, AWS Bedrock, and Google
 - **Triton**
     1. Remove fixed remove bad_words / stop words from `/generate` call - [Get Started](../../docs/providers/triton-inference-server#triton-generate---chat-completion), [PR](https://github.com/BerriAI/litellm/pull/10163)
 - **Other**
-    1. Support for all litellm providers on Responses API (works with Codex) - [Get Started](../../docs/tutorials/openai_codex), [PR](https://github.com/BerriAI/litellm/pull/10132)
+    1. Support for all litellm providers on Responses API (works with Codex) - [Get Started](../../docs/proxy/client_setup/codex_cli), [PR](https://github.com/BerriAI/litellm/pull/10132)
     2. Fix combining multiple tool calls in streaming response - [Get Started](../../docs/completion/stream#helper-function), [PR](https://github.com/BerriAI/litellm/pull/10040)
 
 
